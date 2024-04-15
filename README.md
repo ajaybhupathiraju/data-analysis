@@ -4,6 +4,7 @@ This repository contains all my data explorations and anaysis
 # Table of Contents
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
+- [EDA](#exploratory-data-analysis)
 - [Recommendations](#recommendations)
 
 ## Project Overview
