@@ -2,9 +2,9 @@
 This repository contains all my data explorations and anaysis
 
 # Table of Contents
-- Project Overview
-- Data Sources
-- Recommendations
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Recommendations](#recommendations)
 
 ## Project Overview
   
@@ -15,11 +15,13 @@ This repository contains all my data explorations and anaysis
 Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
 
 ## Tools
+
 - CSV
 - PostgreSQL - Data Analysis
 - PowerBI    - Visuvalization reports
 
 ## Data Cleaning/Preparation
+
 In the initial data preparation phase, we performed the following tasks:
 
     1. Data loading and inspection.
@@ -27,6 +29,7 @@ In the initial data preparation phase, we performed the following tasks:
     3. Data cleaning and formatting.
 
 ## Exploratory Data Analysis
+
 EDA involved exploring the sales data to answer key questions, such as:
 
     1. What is the overall sales trend?
@@ -34,6 +37,7 @@ EDA involved exploring the sales data to answer key questions, such as:
     3. What are the peak sales periods?
 
 ## Data Analysis
+
 Include some interesting code/features worked with
 ```sql 
 SELECT * FROM table1
