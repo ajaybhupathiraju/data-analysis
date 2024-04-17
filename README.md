@@ -42,10 +42,28 @@ EDA involved exploring the sales data to answer key questions, such as:
 ## Data Analysis
 
 Include some interesting code/features worked with
-```sql 
-SELECT * FROM table1
-WHERE cond = 2;
+```sql
+-- Male have higher risk heartdisease approx 76%
+select h.sex,cast(count(1) as float) / (select count(1) from heartdisease h1)*100 from heartdisease h 
+where h.target in (1,0)
+group by h.sex;
 ```
+```sql
+-- People prone to have a heart diseases in future
+select h.age,count(1) from heartdisease h
+where h.cholesterol > 240 and h."fasting blood sugar" =1 and h.target = 0
+and h."exercise angina" =1
+group by h.age
+having h.age > 45
+```
+```sql
+-- 52% peoples are asymptomatic with heart disease ,5% peoples have tipical chestpain having a heart disease.
+select h."chest pain type" ,cast(count(1) as float)/(select count(1) from heartdisease h1)*100 from heartdisease h
+group by h."chest pain type"
+order by h."chest pain type"
+having h.age > 45
+```
+
 ## Results/Findings
 
 The analysis results are summarized as follows:
