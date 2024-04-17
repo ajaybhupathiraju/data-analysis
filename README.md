@@ -9,11 +9,13 @@ This repository contains all my data explorations and anaysis
 
 ## Project Overview
   
-  This data analysis project aims to provide insights into the sales performance of an e-commerce company over the past year. By analyzing various aspects of the sales data, we     seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
-  
+  This data analysis project aims to provide insights of the most common cardiovascular disease in peoples.Heart disease is the leading cause of death in the many conuntries.
+  There are many different factors that can make to develop heart disease like age,sex,chest pain type,resting blood pressure,cholesterol and fasting blood sugar etc.
+
 ## Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+Heart Disease dataset: from kaggle datasets.
+Ref link - https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 
 ## Tools
 
