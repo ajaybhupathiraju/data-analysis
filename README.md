@@ -35,9 +35,9 @@ In the initial data preparation phase, we performed the following tasks:
 
 EDA involved exploring the sales data to answer key questions, such as:
 
-    1. What is the overall sales trend?
-    2. Which products are top sellers?
-    3. What are the peak sales periods?
+    1. What is the overall heart disease in trend with age?
+    2. Range in age group have highest heart disease?
+    3. feature predicted heart disease ?
 
 ## Data Analysis
 
